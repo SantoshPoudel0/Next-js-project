@@ -2,7 +2,7 @@
 import Product from "../components/product"
 export default function Products() {
 
-    let product_style = {
+    let santosh = {
         border: "1px solid black"
     }
     let color = "red"
