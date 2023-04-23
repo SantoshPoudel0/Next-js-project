@@ -1,0 +1,21 @@
+.product{
+   
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    font-size: 1.5em;
+    background-color: pink;
+    margin: 10px;
+}
+.text{
+    color: pink;
+    background-color: black;
+}
+.text:hover{
+    transition: all;
+    color: white;
+    cursor: pointer;
+}
+.product p:first-child{
+    text-transform: capitalize;
+}

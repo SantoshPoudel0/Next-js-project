@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 function Profile() {
@@ -5,7 +6,14 @@ function Profile() {
     let logged_status = true;
 
     return <>
-        <h1>profile page</h1>
+        
+        <ul>
+                <li>
+                    <Link href="/">home</Link>
+                </li>
+               
+            </ul>
+            <h1>profile page</h1>
         <hr />
         {
             logged_status
