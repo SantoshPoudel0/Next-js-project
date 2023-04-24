@@ -11,7 +11,7 @@
     color: pink;
     background-color: black;
 }
-.text:hover{
+.Product:hover{
     transition: all;
     color: white;
     cursor: pointer;

@@ -10,10 +10,22 @@ function Index() {
       <ul>
         <li>
           <Link href={"/products"} >products</Link>
-          </li>
-          <li>
-            <Link href={"/profile"} >profiles</Link>
-          </li>
+        </li>
+        <li>
+          <Link href={"/profile"} >profiles</Link>
+         
+
+        </li>
+        <li>
+          <Link href={"/counter"} >Counter</Link>
+         
+
+        </li>
+        <li>
+          <Link href={"/users"} >users</Link>
+         
+
+        </li>
       </ul>
     </>
 
