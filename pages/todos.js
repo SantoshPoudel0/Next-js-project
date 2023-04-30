@@ -1210,8 +1210,12 @@ export default function Todos() {
     ]
     return (
         <>
-            <Link href={"/"}>home</Link>
-            {/* <Link href="/">home</Link> */}
+        <ul>
+           <li>
+             <Link href={"/"}>home</Link>
+             </li>
+             </ul>
+       
 
             <h1>Todos</h1>
             <ul>

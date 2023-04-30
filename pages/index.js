@@ -18,17 +18,14 @@ function Index() {
         </li>
         <li>
           <Link href={"/counter"} >Counter</Link>
-      
-
 
         </li>
+        
         <li>
-        <Link href={"/todos"}>Todos</Link>
+          <Link href={"/todos"}>Todos</Link>
         </li>
         <li>
           <Link href={"/users"} >users</Link>
-
-
         </li>
       </ul>
     </>
