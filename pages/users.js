@@ -4,7 +4,7 @@ Link
 
 function Users() {
     let users = [
-        
+
         {
             "id": 1,
             "name": "Leanne Graham",
@@ -239,11 +239,11 @@ function Users() {
 
     return <>
         <ul>
-                <li>
-                    <Link href="/">home</Link>
-                </li>
-               
-            </ul>
+            <li>
+                <Link href="/">home</Link>
+            </li>
+
+        </ul>
         <table>
             <thead>
                 <tr>

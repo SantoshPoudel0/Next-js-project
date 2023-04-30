@@ -12,7 +12,15 @@ function Index() {
           <Link href={"/products"} >products</Link>
         </li>
         <li>
+          <Link href={"/fetch-users"} >fetch-users</Link>
+        </li>
+        <li>
           <Link href={"/profile"} >profiles</Link>
+
+
+        </li>
+        <li>
+          <Link href={"/login"} >login</Link>
 
 
         </li>

@@ -6,14 +6,14 @@ function Profile() {
     let logged_status = true;
 
     return <>
-        
+
         <ul>
-                <li>
-                    <Link href="/">home</Link>
-                </li>
-               
-            </ul>
-            <h1>profile page</h1>
+            <li>
+                <Link href="/">home</Link>
+            </li>
+
+        </ul>
+        <h1>profile page</h1>
         <hr />
         {
             logged_status
