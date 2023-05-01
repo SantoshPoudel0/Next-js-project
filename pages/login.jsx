@@ -10,6 +10,12 @@ const login=() =>{
     }
 
     return <>
+            <ul>
+            <li>
+                <Link href="/">home</Link>
+            </li>
+
+        </ul>
     <form>
         <p>input value is {input_value}</p>
         <input onChange={changeInput}/>

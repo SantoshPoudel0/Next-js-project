@@ -1,7 +1,11 @@
+Link
 import { useState } from "react"
+
 import Header from "@/components/Header"
+import Link from "next/link";
 
 export default function counter() {
+    
 
     console.log("top");
 
@@ -41,6 +45,12 @@ export default function counter() {
 
     return (
         <>
+                <ul>
+            <li>
+                <Link href="/">home</Link>
+            </li>
+
+        </ul>
             <Header count={count} number={number} />
             <h1>Number: {number}</h1>
             <h1>count<span id="count"> {count} </span> </h1>

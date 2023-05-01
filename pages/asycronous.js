@@ -21,8 +21,10 @@ console.log(num1 + num2)
 
 */
 
-// let promise1 = new Promise ((resolve,reject) => {
-// reject([{name: "css"}, {name: "html"}])
+let promise1 = new Promise ((resolve,reject) => {
+reject([{name: "css"}, {name: "html"}])
 
-// })
-// console.log(promise1);
+})
+console.log("before-promise");
+promise1.then((res)=>{console.log(res)});
+console.log("after-promise");
